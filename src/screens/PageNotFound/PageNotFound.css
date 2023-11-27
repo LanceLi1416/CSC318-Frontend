@@ -1,0 +1,32 @@
+.element {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.element .div {
+    height: 832px;
+    position: relative;
+    width: 1280px;
+}
+
+.element .text-wrapper {
+    color: #000000;
+    font-family: var(--t-iitle-font-family);
+    font-size: var(--t-iitle-font-size);
+    font-style: var(--t-iitle-font-style);
+    font-weight: var(--t-iitle-font-weight);
+    left: 156px;
+    letter-spacing: var(--t-iitle-letter-spacing);
+    line-height: var(--t-iitle-line-height);
+    position: absolute;
+    top: 285px;
+}
+
+.element .round-instance {
+    left: 575px !important;
+    position: absolute !important;
+    top: 499px !important;
+}

@@ -1,0 +1,29 @@
+.chat-view {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+
+    background-color: var(--light);
+    border-radius: 16px;
+    padding: 8px;
+    overflow-y: auto; /* Allow scrolling */
+    height: 75vh;
+}
+
+.message {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.time {
+    color: #666;
+    margin-right: 5px;
+}
+
+.sender {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.text {
+    color: #333;
+}

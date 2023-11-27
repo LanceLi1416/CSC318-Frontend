@@ -1,0 +1,31 @@
+.sharp {
+    align-items: center;
+    background-color: #333333;
+    box-shadow: 0px 4px 4px #00000040;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    position: relative;
+    width: 130px;
+}
+
+.sharp .button {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica, serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.sharp:hover {
+    background-color: #dddddd;
+}
+
+.sharp:hover .button {
+    color: #000000;
+}

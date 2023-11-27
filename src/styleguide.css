@@ -1,0 +1,14 @@
+:root {
+    --collection-1-follow-roboto: initial;
+    --dark: rgba(0, 0, 0, 1);
+    --light: rgba(255, 255, 255, 1);
+    --self: rgba(10, 96, 226, 1);
+    --system: rgba(237, 17, 17, 1);
+    --secondary: #D9D9D9;
+    --t-iitle-font-family: "JacquesFrancois Shadow-Regular", Helvetica, serif;
+    --t-iitle-font-size: 96px;
+    --t-iitle-font-style: normal;
+    --t-iitle-font-weight: 400;
+    --t-iitle-letter-spacing: 0px;
+    --t-iitle-line-height: normal;
+}

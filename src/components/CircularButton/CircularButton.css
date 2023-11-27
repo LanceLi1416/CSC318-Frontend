@@ -1,0 +1,28 @@
+.circular-button {
+    background-color: var(--light);
+    border: none;
+    outline: none;
+    alitgn-items: center;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px #00000040;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    padding: 8px;
+    position: relative;
+    width: 32px;
+}
+
+.circular-button:hover {
+    background-color: var(--dark)
+}
+
+.circular-button:hover .button-icon {
+    filter: invert(100%); /* Invert colors to make the icon white */
+}
+
+.button-icon {
+    display: block; /* To prevent alignment issues */
+    width: auto; /* Maintain the aspect ratio */
+    height: 100%; /* Match the height to the button's size */
+}
